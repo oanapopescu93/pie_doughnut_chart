@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+	<title>Pie and doughnut</title>
+	
+	<meta http-equiv="content" content="text/html" charset="utf-8">	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="oana popescu front end web developer website">
+	<meta name="spacing-bottom keywords" content="oana, popescu, front end, web, developer, website, 0729699148, oanapopescu93@gmail.com">
+	<meta name="author" content="Oana Popescu">	
+	<meta name="copyright" content="2019. All rights reserved.">
+		
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 text-center">
+				<h1 class="text-uppercase">My wallet</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="years-list">
+					<li class="year active"><span>2019</span></li>
+					<li class="year"><span>2018</span></li>
+					<li class="year"><span>2017</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<h3 class="text-center">This year</h3>
+				<canvas id="year_progress"></canvas>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<ul class="months-list">
+					<li class="month active"><span>January</span></li>
+					<li class="month"><span>February</span></li>
+					<li class="month"><span>March</span></li>
+					<li class="month"><span>April</span></li>
+					<li class="month"><span>May</span></li>
+					<li class="month"><span>June</span></li>
+					<li class="month"><span>July</span></li>
+					<li class="month"><span>August</span></li>
+					<li class="month"><span>September</span></li>
+					<li class="month"><span>October</span></li>
+					<li class="month"><span>November</span></li>
+					<li class="month"><span>December</span></li>
+				</ul>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-6">
+				<h3 class="text-center">Incomes</h3>
+				<canvas id="incomes"></canvas>
+			</div>
+			<div class="col-sm-6">
+				<h3 class="text-center">Expences</h3>
+				<canvas id="expences"></canvas>
+			</div>
+		</div>
+		
+	</div>
+</body>
+</html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="scripts/bootstrap.js"></script>
+
+<script src="scripts/data.js"></script>
+<script src="scripts/line_chart.js"></script>
+<script src="scripts/pie_chart.js"></script>
+<script src="scripts/script.js"></script>
